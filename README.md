@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+Ability to Expand ZOOM IN and ZOOM OUT. Range Line Segmentation Select. Image carousel.

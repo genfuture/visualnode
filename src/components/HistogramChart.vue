@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Histogram Chart with Zoom and Frequency Selection</h2>
+    <h2>Histogram Chart with Zoom and Selection</h2>
 
     <!-- File Upload -->
     <label for="csvUpload" class="upload-label">Upload CSV File:</label>
@@ -113,7 +113,7 @@ export default {
           responsive: true,
           plugins: {
             legend: { position: 'top' },
-            title: { display: true, text: 'Histogram of Frequency Data' },
+            title: { display: true, text: 'Histogram of Data' },
             zoom: {
               pan: { enabled: true, mode: 'x' },
               zoom: { wheel: { enabled: true }, pinch: { enabled: true }, mode: 'x' }
