@@ -6,15 +6,18 @@
     <label for="csvUpload" class="upload-label">Upload CSV File:</label>
     <input type="file" id="csvUpload" @change="handleFileUpload" accept=".csv" />
 
-    <!-- Main Chart -->
-    <canvas ref="myChartRef"></canvas>
+    <!-- Chart Container Box -->
+    <div class="chart-container">
+      <!-- Main Chart -->
+      <canvas ref="myChartRef"></canvas>
 
-    <!-- Button to Clear Lines -->
-    <button @click="clearLines" :disabled="lines.length === 0" class="clear-button">Clear Lines</button>
+      <!-- Button to Clear Lines -->
+      <button @click="clearLines" :disabled="lines.length === 0" class="clear-button">Clear Lines</button>
 
-    <!-- Show Selected Range -->
-    <div v-if="lines.length === 2" class="range-display">
-      <p>Selected Range: {{ lines[0].value }} to {{ lines[1].value }}</p>
+      <!-- Show Selected Range -->
+      <div v-if="lines.length === 2" class="range-display">
+        <p>Selected Range: {{ lines[0].value }} to {{ lines[1].value }}</p>
+      </div>
     </div>
 
     <!-- Small Chart Displaying Selected Area -->
@@ -264,6 +267,14 @@ export default {
 </script>
 
 <style scoped>
+.chart-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
 .carousel-container {
   margin-top: 30px;
 }
