@@ -1,8 +1,8 @@
 # vue-histogram-chart
 
-## Demo Video
+## Demo
 
-![Demo Video](./video/videonodevs.mov)
+![Demo Video](./gif/videonodevs.gif)
 
 
 ## Project setup
