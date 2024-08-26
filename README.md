@@ -2,7 +2,7 @@
 
 ## Demo
 
-![Demo Video](./gif/videonodevs.gif)
+![Demo Video](./video/videonodevs.mp4)
 
 
 ## Project setup
