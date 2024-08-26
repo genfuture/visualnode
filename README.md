@@ -1,5 +1,10 @@
 # vue-histogram-chart
 
+## Demo Video
+
+![Demo Video](./video/videonodevs.mov)
+
+
 ## Project setup
 ```
 npm install
